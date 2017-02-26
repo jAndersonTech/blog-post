@@ -1,0 +1,14 @@
+.app {
+	margin: 20px auto;
+	max-width: 500px;
+	width: 95%;
+}
+
+.list-group-item {
+	margin: 10px 0;
+}
+
+.list-group-item:hover {
+	background-color: #eee;
+}
+

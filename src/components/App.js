@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
-import logo from '../resources/logo.svg';
-import '../css/App.css';
+import firebase from 'firebase';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+
+	componentWillMount() {
+
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyC0Wp3pDFmfYIYdWFsZ_t_1gx2J3VJUhW8",
+			authDomain: "blog-post-27b86.firebaseapp.com",
+			databaseURL: "https://blog-post-27b86.firebaseio.com",
+			storageBucket: "blog-post-27b86.appspot.com",
+			messagingSenderId: "63978791442"
+		};
+		firebase.initializeApp(config);
+	}
+
+ 	render() {
+   		return (
+     		<div className="app">
+        		{this.props.children}
+     		 </div>
+    	);
+  	}
 }
 
 export default App;

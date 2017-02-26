@@ -1,0 +1,22 @@
+.show-post section {
+	background-color: #eee;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.show-post h3 {
+	background-color: white;
+	padding: 10px;
+	border-radius: 2px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.show-post h6, p {
+	padding-left: 10px;
+}
+
+.show-post hr {
+	border-top: 2px solid black;
+}

@@ -1,0 +1,9 @@
+.new-post div {
+	border-radius: 10px;
+	background-color: #eee;
+	padding: 10px;
+}
+
+.new-post button, .new-post a {
+	margin: 5px;
+}

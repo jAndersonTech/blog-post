@@ -1,0 +1,16 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 0 10% 20px;
+}
+
+.login input {
+	margin-bottom: 10px;
+}
+
+.login h2, .login p {
+	text-align: center;
+}
+
