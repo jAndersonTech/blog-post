@@ -2,7 +2,7 @@
   "name": "blogPost",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jAndersonTech.github.io/blog-post",
+  "homepage": "https://jandersontech.github.io/blog-post",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.0"
