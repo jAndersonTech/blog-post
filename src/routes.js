@@ -8,7 +8,7 @@ import PostsShow from './components/posts_show';
 
 // google.com/ where / is the path => renders App
 export default ( 
-	<Route path="/" component={App}>
+	<Route path="/blog-post" component={App}>
 		<IndexRoute component={LoginForm} />
 		<Route path="home" component={PostsIndex} />
 		<Route path="posts/new" component={PostsNew} />
